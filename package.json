@@ -1,5 +1,7 @@
 {
   "name": "my-app",
+  "packageManager": "yarn@4.5.0",
+  "homepage": "https://victorlemosdev.github.io/TechHome-Website/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -39,6 +41,7 @@
     "firebase": "^10.13.1",
     "framer-motion": "^11.5.4",
     "fs": "^0.0.1-security",
+    "gh-pages": "^6.1.1",
     "gsap": "^3.12.5",
     "http": "^0.0.1-security",
     "lucide-react": "^0.439.0",
@@ -60,11 +63,12 @@
     "react-native-ble-manager": "^11.5.5",
     "react-native-ble-plx": "^3.2.1",
     "react-router-dom": "^6.26.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "sonner": "^1.5.0",
     "stream": "^0.0.3",
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.6.2",
     "url": "^0.11.4",
     "uuid": "^10.0.0",
     "web-vitals": "^2.1.4",
@@ -80,7 +84,9 @@
     "ionic:serve": "react-scripts start",
     "server": "cd src/server & node server.js",
     "android": "expo run:android",
-    "ios": "expo run:ios"
+    "ios": "expo run:ios",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
