@@ -5,6 +5,11 @@
 /.pnp
 .pnp.js
 
+android/
+
+/.vscode
+
+
 # testing
 /coverage
 
