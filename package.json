@@ -27,29 +27,6 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "@types/react": "^18.3.5",
-    "@types/react-dom": "^18.3.0",
-    "axios": "^1.7.7",
-    "child_process": "^1.0.2",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.1.1",
-    "cors": "^2.8.5",
-    "dnd-kit": "^0.0.2",
-    "expo": "~51.0.28",
-    "express": "^4.21.0",
-    "firebase": "^10.13.1",
-    "framer-motion": "^11.5.4",
-    "fs": "^0.0.1-security",
-    "gh-pages": "^6.1.1",
-    "gsap": "^3.12.5",
-    "http": "^0.0.1-security",
-    "lucide-react": "^0.439.0",
-    "mobile-drag-drop": "^3.0.0-rc.0",
-    "mongodb": "^6.9.0",
-    "mongoose": "^8.6.2",
-    "next-themes": "^0.3.0",
-    "nodejs-mobile-react-native": "^18.17.8",
-    "path": "^0.12.7",
     "react": "^18.3.1",
     "react-device-detect": "^2.2.3",
     "react-dnd": "^16.0.1",
@@ -77,14 +54,7 @@
     "start-main": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "ionic:build": "npm run build",
-    "ionic:serve": "react-scripts start",
-    "server": "cd src/server & node server.js",
-    "android": "expo run:android",
-    "ios": "expo run:ios",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -107,6 +77,7 @@
   "devDependencies": {
     "@types/jquery": "^3.5.30",
     "@types/web-bluetooth": "^0.0.20",
+    "gh-pages": "^6.1.1",
     "tailwindcss": "^3.4.10"
   }
 }

@@ -9,6 +9,11 @@ android/
 
 /.vscode
 
+
+android/
+
+/.vscode
+
 .yarn\**
 # testing
 /coverage
