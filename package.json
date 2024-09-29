@@ -1,9 +1,8 @@
 {
   "name": "my-app",
-  "packageManager": "yarn@4.5.0",
   "homepage": "https://victorlemosdev.github.io/TechHome-Website/",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@capacitor/android": "6.1.2",
     "@capacitor/app": "6.0.1",
