@@ -35,7 +35,7 @@ export default function App() {
 
     <Helmet>
 
-      <script src="./server.js"></script>
+       <script src="./server.js"></script>
 
     </Helmet>
 
@@ -46,7 +46,7 @@ export default function App() {
 
 
 
-        <Route path="/" exact element={<Auth />} />
+        <Route path="/" exact element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/sensors" element={<Sensors />} />
         <Route path="/configuration" element={<Configuration />} />
