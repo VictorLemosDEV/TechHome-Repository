@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/TechHome-Repository/static/css/main.4773cb33.css",
-    "main.js": "/TechHome-Repository/static/js/main.97075931.js",
+    "main.js": "/TechHome-Repository/static/js/main.511f9e53.js",
     "static/js/453.ed3810f9.chunk.js": "/TechHome-Repository/static/js/453.ed3810f9.chunk.js",
     "index.html": "/TechHome-Repository/index.html",
     "main.4773cb33.css.map": "/TechHome-Repository/static/css/main.4773cb33.css.map",
-    "main.97075931.js.map": "/TechHome-Repository/static/js/main.97075931.js.map",
+    "main.511f9e53.js.map": "/TechHome-Repository/static/js/main.511f9e53.js.map",
     "453.ed3810f9.chunk.js.map": "/TechHome-Repository/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4773cb33.css",
-    "static/js/main.97075931.js"
+    "static/js/main.511f9e53.js"
   ]
 }
