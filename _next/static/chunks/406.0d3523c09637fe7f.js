@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[406],{6406:function(e,n,r){r.r(n),r.d(n,{default:function(){return s}});var t=r(5893);r(7294);var i=r(6454);function s(){return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(i.Z,{elementActive:"configuration"}),(0,t.jsx)("main",{children:(0,t.jsx)("h1",{className:"title",children:"Configura\xe7\xf5es"})})]})}}}]);
