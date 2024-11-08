@@ -39,14 +39,14 @@ export default function App() {
 
     </Helmet>
 
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
 
 
       <Routes>
 
 
 
-        <Route exactpath="/" exact element={<Auth />} />
+        <Route path="/" exact element={<Auth />} />
         <Route path="/home" element={<Home />} />
         <Route path="/sensors" element={<Sensors />} />
         <Route path="/configuration" element={<Configuration />} />
